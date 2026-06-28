@@ -29,6 +29,14 @@ Ponytail Lite is what happens after that senior engineer comes back from coffee:
 AGENTS.md
 ```
 
+## Why This Exists
+
+Could you just copy `AGENTS.md` from [Ponytail](https://github.com/DietrichGebert/ponytail)? Yes.
+
+This repo exists so you do not have to walk past the plugin machinery to find the one file.
+
+The `AGENTS.md` here is not a byte-for-byte copy. It is an opinionated cleanup of the original: same lazy senior dev idea, less plugin baggage, and guardrails rewritten for people who just want the file.
+
 ## Install
 
 Copy [`AGENTS.md`](AGENTS.md), or copy the same text into whatever your agent calls "project instructions" or "rules".
