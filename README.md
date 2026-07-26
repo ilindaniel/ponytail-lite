@@ -8,22 +8,22 @@
 <h1 align="center">Ponytail Lite</h1>
 
 <p align="center">
-  <em>One file. No hooks. He would have wanted it this way.</em>
+  <em>One file. No plugin. He would have wanted it this way.</em>
 </p>
 
 <br>
 
 "Ponytail Lite" is [Ponytail](https://github.com/DietrichGebert/ponytail) without the plugin madness.
 
-Not to be confused with Ponytail's `lite` mode. This is a separate one-file version:
+Not to be confused with Ponytail's `lite` mode. This is a separate one-file version.
 
-No plugin. No hooks. No MCP. No commands. No mode switching. Just copy [`AGENTS.md`](AGENTS.md) into the place your agent reads instructions. That's it.
+Just copy [`AGENTS.md`](AGENTS.md) into the place your agent reads instructions. That's it. No plugin, hooks, commands, MCP, or mode switching.
 
 ## The Joke
 
 Ponytail is a beautiful contradiction: an anti-overengineering tool delivered as a whole plugin ecosystem, with lifecycle hooks, slash commands, MCP, statuslines, adapter tests, and enough install paths to make a senior engineer stare silently at the wall.
 
-Ponytail Lite is what happens after that senior engineer comes back from coffee:
+Ponytail Lite is what a lazy senior dev would have expected:
 
 ```text
 AGENTS.md
@@ -31,9 +31,7 @@ AGENTS.md
 
 ## Why This Exists
 
-Could you just copy `AGENTS.md` from [Ponytail](https://github.com/DietrichGebert/ponytail)? Yes.
-
-This repo exists so you do not have to walk past the plugin machinery to find the one file.
+Could you just copy `AGENTS.md` from [Ponytail](https://github.com/DietrichGebert/ponytail)? Yes... But:
 
 The `AGENTS.md` here is not a byte-for-byte copy. It is an opinionated cleanup of the original: same lazy senior dev idea, less plugin baggage, and guardrails rewritten for people who just want the file.
 
@@ -69,7 +67,7 @@ Delete the file you copied.
 
 If you pasted the text into a global instructions file, delete that paragraph.
 
-No cleanup script. No leftover mode flag. No statusline entry. No hidden MCP server still thinking about your dependency graph.
+No leftover mode flag, statusline entry, and hidden MCP server still thinking about your dependency graph.
 
 ## What It Does
 
